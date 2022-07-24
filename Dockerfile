@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkins/jenkins:lts
 
 ARG HOST_UID=1004
 ARG HOST_GID=999
